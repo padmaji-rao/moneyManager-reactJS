@@ -1,0 +1,51 @@
+.bie-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+  margin-top: 25px;
+}
+.bie-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 10px;
+  width: 240px;
+  height: 100px;
+}
+.bie-logo {
+  width: 50px;
+}
+.bie-inner-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.bie-head {
+  color: #475569;
+  margin-bottom: 0px;
+  font-size: 14px;
+}
+.bie-para {
+  color: #475569;
+  font-weight: 500;
+  font-size: 22px;
+  margin-top: 10px;
+}
+.balance-bg {
+  background-color: #ecfccb;
+  border-color: #84cc16;
+}
+.income-bg {
+  background-color: #cffafe;
+  border-color: #06b6d4;
+}
+.expenses-bg {
+  background-color: #ede9fe;
+  border-color: #7c3aed;
+}

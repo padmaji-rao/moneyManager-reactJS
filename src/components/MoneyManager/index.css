@@ -1,0 +1,121 @@
+.bg-container {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.profile-container {
+  text-align: left;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  height: 160px;
+  border-radius: 20px;
+  padding-left: 50px;
+  padding-top: 20px;
+  width: 60%;
+}
+.profile-head {
+  color: #475569;
+  font-weight: 500;
+  font-size: 30px;
+}
+.profile-para {
+  color: #475569;
+}
+.spanned {
+  color: #0b69ff;
+  font-weight: 500;
+}
+.bottom-container {
+  display: flex;
+  flex-direction: row;
+
+  margin-top: 30px;
+  width: 60%;
+}
+.transaction-container {
+  padding: 30px;
+  border-style: solid;
+  border-color: #cbd5e1;
+  border-width: 1px;
+  border-radius: 15px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.trans-head {
+  color: #334155;
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+.trans-label {
+  color: #7e858e;
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.trans-input {
+  border-radius: 3px;
+  width: 250px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d7dfe9;
+  padding: 6px;
+  height: 33px;
+  color: #7e858e;
+  font-size: 12px;
+  font-weight: 400;
+  outline: none;
+  margin-bottom: 22px;
+}
+.trans-button {
+  color: white;
+  border-style: solid;
+  border-width: 0px;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: #0b69ff;
+  width: 80px;
+}
+.history-container {
+  padding: 30px;
+  border-style: solid;
+  border-color: #cbd5e1;
+  border-width: 1px;
+  border-radius: 15px;
+  margin-left: 40px;
+}
+.overall-head-container {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d7dfe9;
+  width: 350px;
+}
+.head-container {
+  display: flex;
+  flex-direction: row;
+  width: 250px;
+  justify-content: space-between;
+  height: 40px;
+  padding-left: 30px;
+  align-items: center;
+  color: #334155;
+  font-weight: 500;
+  font-size: 15px;
+}
+.list-container {
+  list-style-type: none;
+  margin: 0px;
+  margin-left: 0px;
+  padding-left: 0px;
+}

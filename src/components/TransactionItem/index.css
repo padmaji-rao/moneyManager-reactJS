@@ -1,0 +1,27 @@
+.history-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d7dfe9;
+  width: 350px;
+  font-size: 13px;
+  height: 40px;
+  margin: 0px;
+  color: #7e858e;
+}
+.delete {
+  width: 20px;
+  height: 20px;
+}
+.history-para {
+  width: 75px;
+}
+.history-button {
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+}
